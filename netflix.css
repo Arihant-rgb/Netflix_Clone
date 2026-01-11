@@ -7,6 +7,7 @@
 }
 html{
     font-size: 62.5%;
+    background-color: black;
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size:contain;
@@ -138,9 +139,19 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 14.8rem;
+    gap: 1.6rem;
 }
-.more{
+.para{
+    width: 105.5rem;
+    height: 3rem;
+    margin: 1.6rem 0 0;
+}
+.more-para{
     font-size: 2.4rem;
+    display: inline-block;
+    height: 3rem;
+    width: 22.6rem;
 }
 .card-section{
     display: flex;
@@ -149,20 +160,28 @@ img{
 }
 .card{
     background-color: purple;
-    height:31.8rem;
-    width: 25.2rem;
+    height: 31.8rem;
+    width: 100%;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
     padding: 2.5rem 1.5rem;
     align-items: center;
+    
 }
 .small-para{
     font-size: 1.6rem;
     font-weight: 500;
 }
-.card-1{
-
+.card-1-upper{
+    height: 14.2rem;
+    width: 22rem;
+    padding: 2.4rem 1.6rem 12.8rem;
+}
+.card-1-upper{
+    height: 14.2rem;
+    width: 22rem;
+    padding: 2.4rem 1.6rem 12.8rem;
 }
 .card-2{
 
