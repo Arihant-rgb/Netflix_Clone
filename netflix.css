@@ -90,6 +90,8 @@ html{
 }
 .large-mid-text{
     font-size: 2.4rem;
+    width: 22rem;
+    font-weight: 600;
 }
 .medium-text{
     font-size: 2rem;
@@ -161,35 +163,40 @@ img{
 .card{
     background: linear-gradient(180deg,#1B1A3A 0%,#241C4F 45%,#140A1F 100%);
     height: 31.8rem;
-    width: 100%;
+    width: 25.175rem;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 1.5rem;
     align-items: center;
+    text-align:start;
     
 }
 .small-para{
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(196, 184, 184);
 }
-.card-1-upper{
-    height: 14.2rem;
+.card-upper{
+    display: flex;
+    flex-direction: column;
     width: 22rem;
-    padding: 2.4rem 1.6rem 12.8rem;
+    padding: 2.5rem 0 0;
+    gap: 1.5rem;
+}
+.icon{
+    align-self: flex-end;
 }
 .card-1{
     display: flex;
-    align-items: flex-start;
 }
 .card-2{
-
+    display: flex;
 }
 .card-3{
-
+    display: flex;
 }
 .card-4{
-
+    display: flex;
 }
 .question-section{
 
