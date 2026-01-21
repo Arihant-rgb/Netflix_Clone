@@ -91,7 +91,7 @@ html{
 .large-mid-text{
     font-size: 2.4rem;
     width: 22rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 .medium-text{
     font-size: 2rem;
@@ -153,15 +153,17 @@ img{
     font-size: 2.4rem;
     display: inline-block;
     height: 3rem;
-    width: 22.6rem;
+    width: auto;
+    font-weight: 600;
 }
 .card-section{
     display: flex;
     margin: 0 auto;
-    gap: 2rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 .card{
-    background: linear-gradient(180deg,#1B1A3A 0%,#241C4F 45%,#140A1F 100%);
+    background: linear-gradient(160deg, #0f0c1f, #1b1233, #3a155c);
     height: 31.8rem;
     width: 25.175rem;
     border-radius: 2rem;
@@ -169,6 +171,7 @@ img{
     flex-direction: column;
     align-items: center;
     text-align:start;
+    justify-content: space-between;
     
 }
 .small-para{
@@ -185,6 +188,9 @@ img{
 }
 .icon{
     align-self: flex-end;
+    padding: 0 1rem 1.5rem 0;
+    width: 9rem;
+    height: auto;
 }
 .card-1{
     display: flex;
