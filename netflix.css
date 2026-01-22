@@ -138,6 +138,101 @@ html{
 img{
     width: 8rem;
 }
+
+/* ------RED-LINE------ */
+.red-line img{
+    width: 100%;
+}
+
+/* ------TRENDING NOW------ */
+.trending-now{
+    margin: 3rem 0 0 0;
+}
+.trending-now p{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.top-10{
+    list-style: none;
+    display: flex;
+    gap:4rem;
+    overflow-x: scroll;
+}
+.top-10 p{
+    color: black;
+}
+.img-1{
+    background-image: url(show1.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-2{
+    background-image: url(show2.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-3{
+    background-image: url(show3.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-4{
+    background-image: url(show4.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-5{
+    background-image: url(show5.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-6{
+    background-image: url(show6.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-7{
+    background-image: url(show7.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-8{
+    background-image: url(show8.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-9{
+    background-image: url(show9.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+.img-10{
+    background-image: url(show10.webp);
+    height: 25.2rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: none;
+}
+
 /* ------MORE REASON SECTION------ */
 .more-section{
     background-color: black;
@@ -254,7 +349,7 @@ img{
 .contact{
     font-size: 1.6rem;
     color:rgb(176, 173, 173);
-    margin-bottom: 3.6rem;
+    margin-bottom: 1rem;
 }
 .contact a{
     color: rgb(176, 173, 173);
@@ -276,32 +371,26 @@ img{
     margin-bottom: 5rem;
 }
 .help-section li{
-    margin: 1.2rem 0 0 1.2rem;
-    width: 25.175rem;
+    margin-top: 1.2rem;
+    width: 26.375rem;
     height: 2.1rem;
 }
 .help-section a{
     color: rgb(176, 173, 173);
 }
-.part-1{
-    height: 100%;
-    width: 100%;
-}
-.part-2{
-    
-}
-.part-3{
-    
-}
-.part-4{
-    
-}
 .lang-btn{
-
+    margin-bottom: 4rem;
 }
 .netflix-india{
-
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    color: rgb(176, 173, 173);
 }
 .guidelines{
-
+    font-size: 1.3rem;
+    margin-bottom: 14rem;
+    color: rgb(176, 173, 173);
+}
+.guidelines a{
+    color: rgb(65, 128, 210);
 }
