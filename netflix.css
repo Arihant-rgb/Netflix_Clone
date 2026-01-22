@@ -13,7 +13,7 @@ html{
     background-size:contain;
     font-family:'Inter';
 }
-/* large:5.6rem, large-med:24rem, med:1.6rem, small:1.2rem; */
+/* large:5.6rem, large-med:2.4rem, med:1.6rem, small:1.2rem; */
 
 /*-----------NAVBAR-----------*/
 .netflix-icon{
@@ -65,11 +65,7 @@ html{
     gap: 1.2rem;
 }
 /*-----------HERO-SECTION-----------*/
-/* .extra-class{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+
 .hero-section{
     position: relative;
     top: 6rem;
@@ -82,6 +78,9 @@ html{
     padding: 0 3.2rem 3.2rem;
     margin: -3.2rem 0 13rem;
 }
+
+/* ------TEXT-SIZE------ */
+
 .large-text{
     font-size: 5.6rem;
     color: white;
@@ -106,6 +105,9 @@ html{
     font-weight: 600;
 
 }
+
+/* ------------ */
+
 .sub-hero-section{
     display: flex;
     gap: 0.8rem;
@@ -136,6 +138,7 @@ html{
 img{
     width: 8rem;
 }
+/* ------MORE REASON SECTION------ */
 .more-section{
     background-color: black;
     display: flex;
@@ -192,6 +195,9 @@ img{
     width: 9rem;
     height: auto;
 }
+
+/* ------FAQ's SECTION------ */
+
 .FAQ-que{
     width: auto;
 }
@@ -201,6 +207,8 @@ img{
     width: 105.5rem;
     height: 61.4rem;
     gap: 2rem;
+    padding: 5rem 0 0 0;
+    margin-bottom: 8rem;
 }
 .que{
     background-color: rgb(50, 50, 50);
@@ -222,16 +230,62 @@ img{
     font-size: 4rem;
 }
 .email-section{
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+    margin-bottom: 4.8rem;
 }
+.lower-email{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    text-align: center;
+}
+.email-2{
+    width: 56.2rem;
+    height: 5.6rem;
+    padding: 1.6rem;
+    align-self: flex-start;
+}
+
+/* ------CONTACT-SECTION------ */
+
+.contact{
+    font-size: 1.6rem;
+    color:rgb(176, 173, 173);
+    margin-bottom: 3.6rem;
+}
+.contact a{
+    color: rgb(176, 173, 173);
+}
+
+/* ------FOOTER-SECTION------ */
+
 .footer-section{
 
 }
-.help-section{
 
+/* ------HELP-SECTION------ */
+
+.help-section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+}
+.help-section li{
+    margin: 1.2rem 0 0 1.2rem;
+    width: 25.175rem;
+    height: 2.1rem;
+}
+.help-section a{
+    color: rgb(176, 173, 173);
 }
 .part-1{
-
+    height: 100%;
+    width: 100%;
 }
 .part-2{
     
