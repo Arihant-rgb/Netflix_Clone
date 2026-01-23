@@ -383,10 +383,14 @@ img{
     height: 8.4rem;
     padding:2.4rem;
     justify-content: space-between;
+    cursor: pointer;
 }
 .que p{
     font-size: 2.4rem;
     font-weight: 375;
+}
+.que:hover{
+    background-color: rgb(66, 65, 65);
 }
 .question-containers{
     display: flex;
