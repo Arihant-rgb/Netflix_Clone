@@ -147,6 +147,7 @@ img{
 /* ------TRENDING NOW------ */
 .trending-now{
     margin: 3rem 0 0 0;
+    margin-bottom: 5rem;
 }
 .trending-now p{
     font-size: 2.4rem;
@@ -157,80 +158,151 @@ img{
     list-style: none;
     display: flex;
     gap:4rem;
-    overflow-x: scroll;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0 0 0 4.5rem;
+    margin: 0;
+}
+.top-10 .rank{
+    position: absolute;
+    left: -2rem;
+    bottom: 0.5rem;
+    z-index: 2;
+    font-size: 10rem;
+    font-weight: 900;
+    /* line-height: 0.75; */
+    color: #000;
+    -webkit-text-stroke: 0.15rem #d5d5d5;
+    text-shadow: 0.4rem 0.4rem 12rem rgba(0, 0, 0, 0.65);
+    pointer-events: none;
+    user-select: none;
+    /* font-family: Impact, "Arial Black", Haettenschweiler, sans-serif; */
+}
+.top-10::-webkit-scrollbar{
+    display: none;
 }
 .top-10 p{
     color: black;
 }
+.top-10 li{
+    position: relative;
+    flex: 0 0 auto;
+}
+.top-10 li:hover button {
+    transform: scale(1.08);
+    z-index: 10;                    /* pops above neighbors */
+}
 .img-1{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show1.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
+    
 }
 .img-2{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show2.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
+
 }
 .img-3{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show3.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-4{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show4.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-5{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show5.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-6{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show6.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-7{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show7.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-8{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show8.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-9{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show9.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 .img-10{
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25 ease;
     background-image: url(show10.webp);
     height: 25.2rem;
     width: 18rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 
 /* ------MORE REASON SECTION------ */
